@@ -1,0 +1,14 @@
+Microsoft Sharepoint
+
+Sharepoint Desktop/Online App
+365 Buinsess Account
+
+Ist wie Intranet
+
+Erstellte Seite ist Team-Seite
+	Permission level
+		---> Owner 
+		---> member
+		---> visitor
+		
+Template für Teamverwaltung und Kommunikation

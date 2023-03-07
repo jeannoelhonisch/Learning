@@ -1,0 +1,23 @@
+Switch
+	- Ein Switch benutzt also immer nur die Layer 2 Adresse und benötigt dafür die MAC-Adresse
+	- Ein Switch benutzt die MAC-Adresse des Empfängers um die Weiterleitung durchzuführen
+	Cam table(Content Adressable Memory)
+		- Speichert sich die MAC-Adressen in seinem Netzwerk.
+
+IP-Adresse (Internetprotokoll-adress)
+	- OSI 3 schicht
+	- Name mit dem ich im Internet von Gerät zu Gerät wandere.
+	- Personenbezogenes-datum
+	- Zeitstempel bei Provider, kann nachgewiesen werden
+	Aufbau
+		- Oktette, weil immer (xxx.xxx.xxx.xxx) 1 Zahl = bis 8 und 8 
+		- x3 x2 x1 x0 <--- bi-när
+		   8  4  2  0 <--- die 2 als Darstellung für 2 Darstellbare Infomationszustände
+		- 32 Bit- also Zahlen die Eingegeben werden können 32 bit sind = 2 hoch 32 verschiedene Möglichkeiten = ist garnicht so viel
+		- Die einzelnen 8 bit sind hierarchisch aufgebaut. Die spezische Information ähnelt wie einem Brief Land.Stadt.Dort.Haus
+		- Router verteilt geräten ip-adresse
+		- 192.168.1.0
+		 NETWORK PORTION 1en 3 oktets und ganz linkes oktett host
+		- subnetzmaske 255.255.255.x
+
+Damit der Switch die MAC adresse herausfindet, schickt er den Frame den er erhält mit der Zieladresse an jeden in dem Netzwerk weiter. Nur das Gerät mit dem richtigen Namen, erhält den Brief und gibt eine Antwort an den Switch. Mit der Antwort wird auch die MAC-Adresse an den Switch geschickt

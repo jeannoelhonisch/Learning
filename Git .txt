@@ -1,0 +1,37 @@
+Version Controll System
+
+Local Version Controll System
+- Local (lokal)
+- Centralized (Zentralisiert)
+- Distributed (verteilt)
+
+Local 
+	---> Dateien wo anders speichern.
+	---> Timestamp-ordner
+
+Centralized 
+	---> Auf Server gespeichert.
+	---> Gruppe kann darauf zurück greifen
+	---> Man erhält nur die aktuellste Version
+	
+Distributed
+	---> Server 
+	---> Zugang zum ganzen Verlauf 
+	---> jeder clone ist snapshot von ganzem Projekt
+	
+Git 
+	---> Ist Lokal
+	Mehrere Konfigurationdateien
+		---> Repository ---> locales Projektlevel (local)
+		---> User Account (global)
+		---> Betriebssystemlevel Systemlevel(installation)
+		
+		Systemlevel ---> In der Git installation ---> Configuartions-Dateien
+		User Account ---> pre config nach installation	
+		Repository --->
+ 
+		Hierarchie 
+			1. Projektlevel (repository/.git/config) - Im Repository
+			2. User Account global (Users/jeani/.gitconfig) - Nimmt vom Betriebssystem
+			3. Git-Systemlevel (/usr/local/etc/gitconfig) - irgendeine Installationsdatei
+			https://youtu.be/RVia18FNHYo

@@ -1,0 +1,2 @@
+OSI Modell (Open System Interconnection) ---> Offene System Verbindung
+
